@@ -1,0 +1,67 @@
+body {
+  background-image: url('skyblue.jpeg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.stopwatch {
+  background-color: #80BCBD; /* Semi-transparent white background for the stopwatch */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(235, 232, 232, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.display {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.btn {
+  background-color: #D5F0C1;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 5px; /* Updated margin here */
+}
+
+.btn:hover {
+  background-color: #D5F0C1;
+}
+
+.btn:active {
+  background-color: #D5F0C1;
+  transform: translateY(2px);
+}
+
+.laps {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.lap {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
